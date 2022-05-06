@@ -1,0 +1,139 @@
+body{
+    background-color: rgba(102,51,153,0.25);;
+}
+header{
+    border-bottom: 2px solid #0066CC;
+    background-image: url(../img/ヘッダー.webp);
+    background-size: cover;
+    height: 100px;
+}
+header h1{
+    padding-top: 28px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: serif;
+}
+/* ボタンクリック前 */
+.input_area_human{
+    display: flex;
+    font-family: serif;
+}
+.input_area_human img{
+    width: 50%;
+}
+input{
+    height: 40px;
+    width: 300px;
+    margin-left: 10px;
+}
+button{
+    height: 40px;
+    margin-left: 30px;
+    font-family: serif;
+}
+
+/* ボタンクリック後 */
+.output_area{
+    display: flex;
+    justify-content: space-around;
+}
+
+.output_area_mein{
+    position: relative;
+    display: none;
+    /* display: inline-block; */
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    min-width: 400px;
+    max-width: 100%;
+    color: #555;
+    font-size: 50px;
+    background: #e0edff;
+    text-align: center;
+}
+.output_area :before {
+    content: "";
+    position: absolute;
+    top: 78%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #e0edff;
+  }
+
+
+
+/* 吹き出しCSS */
+.input_area_form h1 {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    min-width: 400px;
+    max-width: 100%;
+    color: #555;
+    font-size: 40px;
+    background: #e0edff;
+    text-align: center;
+  }
+  
+  .input_area_form h1:before {
+    content: "";
+    position: absolute;
+    top: 78%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #e0edff;
+  }
+  
+
+
+
+
+
+/* body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell; 
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+} */
